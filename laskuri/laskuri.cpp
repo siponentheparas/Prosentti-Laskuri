@@ -16,17 +16,17 @@ int main() {
 		char mode;
 		cin >> mode;
 		if (mode == '0') {
-			system("cls");
+			system("clear");
 			break;
 		}
 		else if (mode == '1') {
-			system("cls");
+			system("clear");
 			while (true) {
 				int total;
 				int other;
-				cout << "Yhteensä: ";
+				cout << "Yhteensï¿½: ";
 				cin >> total;
-				cout << "vähemmistö: ";
+				cout << "vï¿½hemmistï¿½: ";
 				cin >> other;
 				float total1 = static_cast<float>(total);
 				float other1 = static_cast<float>(other);
@@ -36,22 +36,22 @@ int main() {
 					ans = abs(ans);
 				}
 				cout << "Vastaus on: " << ans << "%" << endl;
-				cout << "Haluatko laskea uudestaan [y] kyllä [n] ei: ";
+				cout << "Haluatko laskea uudestaan [y] kyllï¿½ [n] ei: ";
 				char tum;
 				cin >> tum;
 				if (tum == 'y') {
-					system("cls");
+					system("clear");
 				}
 				else if (tum == 'n') {
-					system("cls");
+					system("clear");
 					break;
 				}
 			}
 		}
 		else if (mode == '2') {
-			system("cls");
+			system("clear");
 			while (true) {
-				cout << "Alkuperäinen arvo: ";
+				cout << "Alkuperï¿½inen arvo: ";
 				int original;
 				cin >> original;
 				cout << "Uusi arvo: ";
@@ -66,20 +66,20 @@ int main() {
 					ans = abs(ans);
 				}
 				cout << "Vastaus on " << ans << "%" << endl;
-				cout << "Haluatko laskea uudestaan [y] kyllä [n] ei: ";
+				cout << "Haluatko laskea uudestaan [y] kyllï¿½ [n] ei: ";
 				char tum;
 				cin >> tum;
 				if (tum == 'y') {
-					system("cls");
+					system("clear");
 				}
 				else {
-					system("cls");
+					system("clear");
 					break;
 				}
 			}
 		}
 		else if (mode == '3') {
-			system("cls");
+			system("clear");
 			while (true) {
 				cout << "Vertaava arvo: ";
 				float first;
@@ -94,20 +94,20 @@ int main() {
 					ans = abs(ans);
 				}
 				cout << "vastaus on " << ans << "%" << endl;
-				cout << "Haluatko laskea uudestaan [y] kyllä [n] ei: ";
+				cout << "Haluatko laskea uudestaan [y] kyllï¿½ [n] ei: ";
 				char tum;
 				cin >> tum;
 				if (tum == 'y') {
-					system("cls");
+					system("clear");
 				}
 				else {
-					system("cls");
+					system("clear");
 					break;
 				}
 			}
 		}
 		else if (mode == '4') {
-			system("cls");
+			system("clear");
 			while (true) {
 				cout << "Prosentit: ";
 				float percentage;
@@ -121,20 +121,20 @@ int main() {
 					ans = abs(ans);
 				}
 				cout << "Vastaus on: " << ans << endl;
-				cout << "Haluatko laskea uudestaan [y] kyllä [n] ei: ";
+				cout << "Haluatko laskea uudestaan [y] kyllï¿½ [n] ei: ";
 				char tum;
 				cin >> tum;
 				if (tum == 'y') {
-					system("cls");
+					system("clear");
 				}
 				else {
-					system("cls");
+					system("clear");
 					break;
 				}
 			}
 		}
 		else {
-			system("cls");
+			system("clear");
 		}
 	}
 
