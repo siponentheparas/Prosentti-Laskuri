@@ -1,3 +1,6 @@
+// Copyright 2024 Oskari Silvennoinen
+// SPDX-License-Identifier: Apache-2.0
+
 #pragma once
 
 using namespace std;
